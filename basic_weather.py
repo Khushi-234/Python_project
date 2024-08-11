@@ -35,7 +35,7 @@ def display_weather(weather_data):
     print(f"Weather: {current_weather['weather'][0]['description']}")
 
 def main():
-    api_key = "786e3b28e9597c4e6edb0e7d63db9cdd"  
+    api_key = ""  
     location = input("Enter city or ZIP code: ")
 
     if not location:
